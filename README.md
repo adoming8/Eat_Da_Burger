@@ -63,6 +63,11 @@
 
 
 ## Software's used to the build App
-+ Express.js
-+ node.js
++ HTML
++ CSS
 + Bootstrap - formatting framework
++ node.js
++ Express.js
++ MYSQL
++ SEQUELIZE
+
