@@ -1,0 +1,61 @@
+.jumbotron{
+    background: url(../img/burger.png);
+    background-size: 250px;
+    opacity: .8 ;
+}
+
+.jumbotron h1 {
+    color: black;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 90px
+
+}
+
+.col-md h3{
+    color: tomato;
+    text-align: center;
+}
+
+button{
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    border: 10px;
+    background-color: white;
+}
+
+button:hover{
+    background-color: tomato;
+}
+#burger-submit:hover{
+    background-color: rgb(104, 225, 139);
+    
+}
+
+#burType{
+    border-radius: 50px;
+    padding: 10px;
+    margin: 10px;
+    border: 1px;
+}
+
+#burger-submit{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    margin-top: 100px;
+    margin-left: 120px;
+    border: 1px solid black;
+}
+
+
+.form-row h6{
+    color: rgb(55, 0, 255);
+    margin-left: 120px;
+    margin-top: 40px;
+    
+}
+
+#burgerEntry{
+    margin-left: 120px;}
