@@ -49,4 +49,7 @@ $(".ChickenBur").on("click", function(event) {
   // When the page loads, grab all of devoure burgers
 
   $.get("/api/all", function(data) {
+
   });
+
+

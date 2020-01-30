@@ -9,10 +9,8 @@ module.exports = function (app) {
     
       });
 
-
     // Add a burger to db
   app.post("/api/new", function (req, res) {
-    console.log("Burger Data:");
     console.log(req.body);
 
     db.Burger.create({
@@ -22,5 +20,4 @@ module.exports = function (app) {
     });
 
   });
-
 }
