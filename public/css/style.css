@@ -39,6 +39,17 @@ button:hover{
     margin: 10px;
     border: 1px;
 }
+.burgbox {
+    color: red;
+    margin-left: 140px;
+    font-size: x-large;
+}
+
+.burgboxeaten {
+    color: black;
+    margin-top: 100px;
+    margin-left: 120px;
+}
 
 #burger-submit{
     border-radius: 5px;

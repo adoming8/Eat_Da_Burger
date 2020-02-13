@@ -14,7 +14,6 @@ app.use(express.json());
 
 // Static directory
 app.use(express.static("./public"));
-const mainLayout = require("./views/layouts/main.js");
 
 // Routes
 // =============================================================
@@ -30,9 +29,7 @@ app.get("/burgers", function(req, res) {
 db.sequelize.sync().then(function() {
     app.listen(PORT, function() {
         console.log("Listening on port %s", PORT);
-
     });
-
 });
 
 
